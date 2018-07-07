@@ -22,10 +22,76 @@
     <!-- Compiled and minified Javascript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
 
+    <!-- Font references -->
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|Comfortaa|Maven+Pro" rel="stylesheet">
+   
+    <!-- Firebase reference -->
+    <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+
 </head>
 
 <body>
+
     <div id="map"></div>
+
+
+    <div>
+        <!-- Dropdown Structure -->
+        <ul id="dropdown1" class="dropdown-content">
+            <li>
+                <a href="#!">one</a>
+            </li>
+            <li>
+                <a href="#!">two</a>
+            </li>
+            <li class="divider"></li>
+            <li>
+                <a href="#!">three</a>
+            </li>
+        </ul>
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo">Logo</a>
+                <ul class="right hide-on-med-and-down">
+                    <li>
+                        <a href="sass.html">Sass</a>
+                    </li>
+                    <li>
+                        <a href="badges.html">Components</a>
+                    </li>
+                    <!-- Dropdown Trigger -->
+                    <li>
+                        <a class="dropdown-trigger" href="#!" data-target="dropdown1">Dropdown
+                            <i class="material-icons right">arrow_drop_down</i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Scrolling background effect -->
+        <div class="parallax-container">
+            <div class="parallax">
+                <img src="assets/images/Background.jpg">
+            </div>
+        </div>
+        <div class="section white">
+            <div class="row container">
+                <h2 class="header">Feed Me</h2>
+                <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than
+                    the foreground content while scrolling.</p>
+            </div>
+        </div>
+        <div class="parallax-container">
+            <div class="parallax">
+                <img src="assets/images/Background2.jpg">
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Javascript reference -->
+
     <script type="text/javascript" src="assets/javascript/project.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcbCQSDenu8nGd2AZFfD466pN_Rgam5iY&callback=initMap"
     async defer></script>

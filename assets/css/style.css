@@ -1,7 +1,30 @@
+
 #map{
     height: 100%;
 }
 html,
 body{
     height: 100%;
+
+
+* {
+    font-family: Comfortaa, Cursive, Arial, Helvetica, sans-serif;
+}
+
+.parallax-container {
+    align-content: center;
+    height: auto;
+    width: auto;
+}
+
+@media screen and (max-width: 980px) { 
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 640px) {
+
 }

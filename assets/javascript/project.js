@@ -1,4 +1,8 @@
 
+$(document).ready(function(){
+    $('.parallax').parallax();
+  });
+
   var map;
       function initMap() {
         map = new google.maps.Map(document.getElementById("map"), {

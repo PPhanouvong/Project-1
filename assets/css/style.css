@@ -1,4 +1,12 @@
 
+#map{
+    height: 100%;
+}
+html,
+body{
+    height: 100%;
+
+
 * {
     font-family: Comfortaa, Cursive, Arial, Helvetica, sans-serif;
 }

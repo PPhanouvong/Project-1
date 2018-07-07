@@ -9,8 +9,8 @@
     <title> Project 1 </title>
 
     <!-- References to styling, bootstrap, and jquery -->
-    <link rel="stlyesheet" type="text/css" href="assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- <link rel="stlyesheet" type="text/css" href="assets/css/reset.css"> -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">y
     <link rel="stylesheet" href="assets/images/">
 
     <!-- jQuery reference -->
@@ -25,31 +25,10 @@
 </head>
 
 <body>
-    
-    <div class="container">
-        Test
-
-        <!-- Scrolling background effect -->
-        <div class="parallax-container">
-            <div class="parallax">
-                <img src="assets/images/Background.jpg">
-            </div>
-        </div>
-        <div class="section white">
-            <div class="row container">
-                <h2 class="header">Feed Me</h2>
-                <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than
-                    the foreground content while scrolling.</p>
-            </div>
-        </div>
-        <div class="parallax-container">
-            <div class="parallax">
-                <img src="assets/images/Background2.jpg">
-            </div>
-        </div>
-
-    </div>
-
+    <div id="map"></div>
     <script type="text/javascript" src="assets/javascript/project.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcbCQSDenu8nGd2AZFfD466pN_Rgam5iY&callback=initMap"
+    async defer></script>
+    
 
 </body>

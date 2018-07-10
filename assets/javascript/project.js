@@ -1,6 +1,8 @@
 
 $(document).ready(function(){
     $('.parallax').parallax();
+    $('select').formSelect();
+    $('input#input_text').characterCounter();
   });
 
   var map;

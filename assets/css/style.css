@@ -1,12 +1,19 @@
-#selectors{
-    align-content: center;
+@viewport {
+    width: device-width;
+    zoom: 1.0;
+
+}
+
+#selectors {
     background-color: white;
     opacity: .9;
     top: 0;
     left: 0;
-    margin: 0% 1% 0% 5%;
-    height: 85%;
+    margin: 30px;
+    padding: 30px;
+    height: 425px;
     width: 45%;
+    align-content: center;
     float: right;
     position: relative;
     border-radius: 5px;
@@ -14,21 +21,30 @@
 
 }
 
-#main-content{
-    display: flex;
-    justify-content: center;
+.clearfix {
+    overflow: auto;
 }
 
-#map{
-    align-content: center;
-    margin: 1.5% 0% 1% 1%;
-    height: 85%;
+#map {
+    margin: 30px;
+    padding: 30px;
+    height: 425px;
     width: 45%;
+    align-content: center;
     float: left;
-    position: absolute;
+    position: relative;
     border-radius: 5px;
     box-shadow: 0 6px p20px 0 rgba(0, 0, 0, 0.19);
     
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+#typeOfRestaurant {
+    padding: 0px;
+    margin: 0px;
 }
 
 .navigation {
@@ -44,6 +60,7 @@
     align-content: center;
     text-align: center;
     padding: none;
+    color: #000000;
     margin: none;
     background: #1FA2FF;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);  /* Chrome 10-25, Safari 5.1-6 */
@@ -51,7 +68,8 @@
 
 }
 
-.section{
+.section,
+#git {
     background: #1FA2FF;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -66,19 +84,34 @@
     
 }
 
+#git {
+    display: flex;
+    justify-content: center;
+
+}
+
 .icons {
-    float: left;
+   text-align: center;
+   color: #000000;
+   padding: 2%;
+
+}
+
+h5 {
+    color: #000000;
+
 }
 
 html,
 body{
     height: 100%;
-
+    
 }
 
 * {
     font-family: Comfortaa, Cursive, Arial, Helvetica, sans-serif;
     pointer-events: all;
+
 }
 
 .parallax-container {
@@ -86,16 +119,93 @@ body{
     height: auto;
     width: auto;
     position: relative;
+
 }
 
-@media screen and (max-width: 980px) { 
+@media screen and (max-width: 1200px) {
 
+    #selectors {
+        background-color: white;
+        opacity: .9;
+        margin: 30px;
+        padding: 30px;
+        height: 425px;
+        width: 400px;
+        align-content: center;
+        float: right;
+        position: relative;
+        border-radius: 5px;
+    
+    }
+
+    #map {
+        margin: 30px;
+        padding: 30px;
+        height: 425px;
+        width: 400px;
+        align-content: center;
+        float: left;
+        position: relative;
+        border-radius: 5px;
+        
+    }
+    
 }
 
 @media screen and (max-width: 768px) {
 
+    #git {
+        display: inline;
+        align-content: center;
+
+    }
+
+    #selectors {
+        opacity: .9;
+        height: 225px;
+        width: auto;
+        float: none;
+        margin: 5px;
+        padding: 5px;
+        overflow: auto;
+
+    }
+
+    #map {
+        height: 250px;
+        width: auto;
+        float: none;
+        margin: 5px;
+        padding: 5px;
+
+    }
 }
 
 @media screen and (max-width: 640px) {
 
+    #git {
+        display: inline;
+        align-content: center;
+
+    }
+
+    #selectors {
+        opacity: .9;
+        height: 225px;
+        width: auto;
+        float: none;
+        margin: 5px;
+        padding: 5px;
+        overflow: auto;
+
+    }
+
+    #map {
+        height: 250px;
+        width: auto;
+        float: none;
+        margin: 5px;
+        padding: 5px;
+
+    }
 }

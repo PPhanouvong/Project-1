@@ -11,7 +11,7 @@
     <!-- References to styling, bootstrap, and jquery -->
     <link rel="stlyesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/images/">
+    <!-- <link rel="stylesheet" href="assets/images/"> -->
 
     <!-- jQuery reference -->
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
@@ -47,19 +47,16 @@
 
         <div class="parallax-container">
             <div class="row">
-                <div id="map" class="col s3"></div>
-
                 <div id="selectors" class="col s3">
 
                     <!--FOOD SELECTOR-->
                     <div class="row">
                         <div id="food" class="input-field">
-                            <select multiple>
-                                <option value="" disabled selected>Cravings</option>
+                            <select class="browser-default">
+                                <option value="" disabled selected>Food Type</option>
                                 <option value="1">American</option>
-                                <option value="2">Spanish</option>
+                                <option value="2">Chinese</option>
                                 <option value="3">Italian</option>
-                                <option value="4">Other</option>
                             </select>
                         </div>
                     </div>
@@ -67,10 +64,10 @@
                     <!--MOOD SELECTOR-->
                     <div class="row">
                         <div id="typeOfRestaurant" class="input-field">
-                            <select multiple>
+                            <select class="browser-default">
                                 <option value="" disabled selected>Mood</option>
                                 <option value="1">Sit down</option>
-                                <option value="2">Drive through</option>
+                                <option value="2">Drive Through</option>
                                 <option value="3">Get together</option>
                             </select>
                         </div>
@@ -78,22 +75,38 @@
 
                     <!--ZIP ENTRY-->
                     <div class="row">
-                        <div id="zip" class="input-field">
-                            <form class="col">
+                        <div id="zipSearch">
+                            <div id="zip" class="input-field">
                                 <div class="row">
                                     <div class="input-field">
-                                        <input id="input_text" type="text" data-length="5" align="right">
-                                        <label for="input_text">Zip Code</label>
+                                        <select class="browser-default">
+                                            <option value="" disabled selected>Radius</option>
+                                            <option value="1">Option 1</option>
+                                            <option value="2">Option 2</option>
+                                            <option value="3">Option 3</option>
+                                        </select>
                                     </div>
                                 </div>
-                            </form>
+                            </div>
+                            <br>
+                            <br>
+                            <!--SEARCH BUTTON-->
+                            <div id="search">
+                                <div class="row">
+                                    <a class="waves-effect waves-teal btn-flat">Search</a>
+                                </div>
+                            </div>
                         </div>
+
+
                     </div>
 
-                    <!--SEARCH BUTTON-->
-                    <a class="waves-effect waves-teal btn-flat">Search</a>
 
                 </div>
+
+                <div id="map" class="col s3"></div>
+
+
             </div>
 
             <div class="parallax">

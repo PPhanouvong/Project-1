@@ -4,25 +4,27 @@
 
 }
 
+* {
+    font-family: Comfortaa, Cursive, Arial, Helvetica, sans-serif;
+    pointer-events: all;
+
+}
+
 #selectors {
     background-color: white;
     opacity: .9;
-    top: 0;
-    left: 0;
     margin: 30px;
-    /* padding: 30px; */
     height: 425px; 
-    /* width: 45%; */
     align-content: center;
     float: right;
     position: relative;
     border-radius: 5px;
-    
 
 }
 
 .clearfix {
     overflow: auto;
+
 }
 
 #map {
@@ -35,21 +37,29 @@
     position: relative;
     border-radius: 5px;
     
-    
 }
 
 .clearfix {
     overflow: auto;
+
 }
 
 #food,
 #typeOfRestaurant,
-#zip{
+#zip {
     padding: 10px;
     height: 20px;
+
 }
-#zipSearch{
+
+#zipSearch {
     padding-left: 15px;
+
+}
+
+.brand-logo {
+    position: relative !important;
+
 }
 
 .navigation {
@@ -62,7 +72,7 @@
     
 }
 
-.nav-wrapper{
+.nav-wrapper {
     align-content: center;
     text-align: center;
     padding: none;
@@ -109,15 +119,9 @@ h5 {
 }
 
 html,
-body{
+body {
     height: 100%;
     
-}
-
-* {
-    font-family: Comfortaa, Cursive, Arial, Helvetica, sans-serif;
-    pointer-events: all;
-
 }
 
 .parallax-container {
@@ -134,9 +138,7 @@ body{
         background-color: white;
         opacity: .9;
         margin: 30px;
-        padding: 30px;
-        /* height: 425px; */
-        width: 400px;
+        height: 425px; 
         align-content: center;
         float: right;
         position: relative;
@@ -144,30 +146,50 @@ body{
     
     }
 
+    .clearfix {
+        overflow: auto;
+    
+    }
+    
     #map {
         margin: 30px;
         padding: 30px;
         height: 425px;
-        width: 400px;
+        width: 65%;
         align-content: center;
         float: left;
         position: relative;
         border-radius: 5px;
         
     }
+    
+    .clearfix {
+        overflow: auto;
+    
+    }
 
     .input {
         display: inline;
+
     }
+    
     #food,
     #typeOfRestaurant,
-    #zip{
+    #zip {
         padding: 10px;
         height: 20px;
+
     }
+
     #zipSearch{
         padding-left: 15px;
+
     }
+}
+
+@media screen and (max-width: 920px) {
+
+
 }
 
 @media screen and (max-width: 768px) {
@@ -180,12 +202,10 @@ body{
 
     #selectors {
         opacity: .9;
-        /* height: 225px; */
         width: auto;
         float: none;
         margin: 5px;
         padding: 5px;
-        /* overflow: auto; */
 
     }
 
@@ -197,17 +217,23 @@ body{
         padding: 5px;
 
     }
+
     .input {
         display: inline;
+
     }
+
     #food,
     #typeOfRestaurant,
-    #zip{
+    #zip {
         padding: 10px;
         height: 20px;
+
     }
-    #zipSearch{
+
+    #zipSearch {
         padding-left: 15px;
+
     }
 }
 
@@ -226,29 +252,29 @@ body{
         float: none;
         margin: 5px;
         padding: 0px, 10px, 15px, 0px;
-        /* overflow: hidden; */
-        /* background-size: 1px; */
         
     }
 
     #food,
     #typeOfRestaurant,
-    #zip{
+    #zip {
         padding: 10px, 10px, 0px, 10px;
         height: 20px;
+
     }
-    #zipSearch{
+
+    #zipSearch {
         padding: 10px, 10px, 10px, 5px;
+
     }
-    #search{
+
+    #search {
         margin-left: -5px;
         margin-top: 5px;
+
     }
     
-    
-    
     #map {
-        /* height: 250px; */
         width: auto;
         height: 225px;
         float: none;

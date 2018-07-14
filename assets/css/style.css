@@ -178,6 +178,7 @@ body {
     width: 50%;
     height: 100%;
     padding: 15px;
+    padding-top: -5px;
     border-radius: 5px;
 }
 
@@ -205,6 +206,7 @@ body {
 }
 
 @media screen and (max-width: 1200px) {
+
 
     #selectors {
         background-color: white;
@@ -345,7 +347,7 @@ body {
 
     #selectors {
         opacity: .9;
-        height: 260px; 
+        height: auto; 
         width: auto;
         float: none;
         margin: 5px;
@@ -361,7 +363,7 @@ body {
 
     #map {
         width: auto;
-        height: 225px;
+        height: 340px;
         float: none;
         margin: 5px;
         padding: 5px;
@@ -385,7 +387,7 @@ body {
 
     #selectors {
         opacity: .9;
-        height: 260px; 
+        height: 200px; 
         width: auto;
         float: none;
         margin: 5px;
@@ -395,7 +397,7 @@ body {
 
     #map {
         width: auto;
-        height: 225px;
+        height: 275px;
         float: none;
         margin: 5px;
         padding: 5px;

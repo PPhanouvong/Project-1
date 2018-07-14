@@ -462,4 +462,20 @@ body {
         padding: 5px;
 
     }
+
+    #reviews {
+        width: auto;
+        height: auto;
+        border-radius: 5px;
+        float: none;
+    }
+    
+    #reviewTable {
+        float: none;
+        width: auto;
+        height: auto;
+        padding: 5px;
+        border-radius: 5px;
+    
+    }
 }

@@ -148,28 +148,39 @@ body {
 
 }
 
-#tableHeadRow {
-    background-color: grey;
+/* #tableHeadRow {
+    /* background-color:; */
 
-}
 
-#nutrients {
+
+/* #nutrients {
     background-color: red;
 
-}
+} */
 
 #reviews {
     background-color: white;
     opacity: .9;
-    width: auto;
-    max-width: 80%;
-    height: 400px;
+    width: 40%;
+    /* max-width: auto; */
+    height: 100%;
     align-content: center;
     border-radius: 5px;
-    padding: 2%;
-    position: absolute;
-    
+    padding: 15px;
+    position: relative;
+    float: left;
 }
+
+#reviewTable {
+    float: right;
+    background-color: white;
+    opacity: .9;
+    width: 50%;
+    height: 100%;
+    padding: 15px;
+    border-radius: 5px;
+}
+
 
 .clearfix {
     overflow: auto;

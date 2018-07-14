@@ -32,14 +32,15 @@
 
 <body>
 
-    <div id="container">
+    <div>
+        <!-- Scrolling background effect -->
 
         <!-- Scrolling background effect -->
         <div class="navigation">
             <nav>
                 <div class="nav-wrapper">
-                    <span class="feedMe-logo">
-                        <a href="#!" class="brand-logo" title="FeedMe">The Food Website</a>
+                    <span class="TheFoodWebsite-logo">
+                        <a href="#!" class="brand-logo" title="TheFoodWebsite">The Food Website</a>
                     </span>
                 </div>
             </nav>
@@ -62,35 +63,9 @@
                         </div>
                     </div>
 
-                    <!-- MOOD SELECTOR
-                    <div class="row">
-                        <div id="typeOfRestaurant" class="input-field">
-                            <select class="browser-default">
-                                <option value="" disabled selected>Mood</option>
-                                <option value="1">Sit down</option>
-                                <option value="2">Drive Through</option>
-                                <option value="3">Get together</option>
-                            </select>
-                        </div>
-                    </div> -->
-
                     <!--ZIP ENTRY-->
                     <div class="row">
                         <div id="zipSearch">
-                            <div id="zip" class="input-field">
-                                <div class="row">
-                                    <div class="input-field">
-                                        <!-- <select class="browser-default">
-                                            <option value="" disabled selected>Radius</option>
-                                            <option value="1">Option 1</option>
-                                            <option value="2">Option 2</option>
-                                            <option value="3">Option 3</option>
-                                        </select> -->
-                                    </div>
-                                </div>
-                            </div>
-                            <br>
-                            <br>
 
                             <!--SEARCH BUTTON-->
                             <div id="search">
@@ -98,11 +73,17 @@
                                     <a class="waves-effect waves-teal btn-flat">Search</a>
                                 </div>
                             </div>
+
                         </div>
+
+
                     </div>
+
+
                 </div>
 
                 <div id="map" class="col s3"></div>
+
 
             </div>
 
@@ -130,27 +111,32 @@
             </div>
             <div id="rowBox" class="row">
 
-                <!-- Nutrient search bar-->
-                <form id="search-form" class="nutrients" class= "col s3">
-                    <input type="text" id="search-input">
-                    <br>
-                    <input id="addSearch" type="submit" value="Submit">
-                </form>
 
-                <!-- Reviews table -->
-                <div id="reviews" class="col s3">
+                <!-- REVIEW TABLE -->
+                <div id="reviews">
+                    <!--REVIEW INPUTS-->
                     <div class="row">
-                        <h1 style="font-size: 14px;">Reviews</h1>
-                        <p>COMPANY</p>
-                        <input type="text" id="name">
-                        <p>ADDRESS</p>
-                        <input type="text" id="address">
-                        <p>REVIEWS/THOUGHT'S/SUGGESTIONS</p>
-                        <input type="text" id="comment">
-                        <input class="btn btn-primary" type="submit" value="Submit" id="review-btn">
+                        <div class="col s3">
+                            <!--HEADER FOR TABLE-->
+                            <h1 style="font-size: 14px;">Reviews</h1>
+                            <!--COMPANY INPUT-->
+                            <p>Company</p>
+                            <input type="text" id="name">
+                            <!--ADDRESS INPUT-->
+                            <p>Address</p>
+                            <input type="text" id="address">
+                            <!--SUBMIT INPUT-->
+                            <p>Reviews</p>
+                            <input type="text" id="comment">
+                            <input class="btn btn-primary" type="submit" value="Submit" id="review-btn">
+                        </div>
                     </div>
+                </div>
+
+                <!--TABLE DISPLAY-->
+                <div id="tableDisplay">
                     <div class="row">
-                        <table id="reviewTable" class="">
+                        <table id="reviewTable" class="col s3">
                             <thead>
                                 <tr id="tableHeadRow">
                                     <th scope="col s3" id="company">COMPANY</th>
@@ -215,7 +201,7 @@
     <script type="text/javascript" src="assets/javascript/project.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcbCQSDenu8nGd2AZFfD466pN_Rgam5iY&callback=initMap" async
         defer></script>
-
+    <!-- test -->
 
 </body>
 

@@ -469,12 +469,6 @@ function initMapFastFood() {
       pic: 'http://maps.google.com/mapfiles/ms/micons/green.png'
     });
     addMarker({
-      coords: { lat: 28.485769, lng: -81.418181 },
-      placeId: '',
-      letter: 'BK',
-      pic: 'http://maps.google.com/mapfiles/ms/micons/green.png'
-    });
-    addMarker({
       coords: { lat: 28.470547, lng: -81.396218 },
       placeId: '',
       letter: 'BK',
@@ -483,58 +477,70 @@ function initMapFastFood() {
   }, 20000);
   // chicfila
   addMarker({
-    coords: { lat: 28.492585, lng: -81.459493 },
-    placeId: '<h4>chic1</h4>'
-  });
-  addMarker({
     coords: { lat: 28.449681, lng: -81.403716 },
-    placeId: '<h4>chic1</h4>'
+    placeId: 'ChIJRTQmx81-54gRyh6DX-ZGQbw'
   });
   addMarker({
     coords: { lat: 28.510168, lng: -81.375735 },
-    placeId: '<h4>chic1</h4>'
-  });
-  addMarker({
-    coords: { lat: 28.372101, lng: -81.504100 },
-    placeId: '<h4>chic1</h4>'
+    placeId: 'ChIJ0y4413N754gRQGDBIPRzJHU',
+    letter:'CFA',
+    pic:''
   });
   addMarker({
     coords: { lat: 28.551143, lng: -81.532852 },
-    placeId: '<h4>chic1</h4>'
+    placeId: 'ChIJ9Z4CLoqC54gRfoACp0Cd6BU',
+    letter:'CFA',
+    pic:''
   });
   addMarker({
     coords: { lat: 28.552679, lng: -81.585020 },
-    placeId: '<h4>chic1</h4>'
+    placeId: 'ChIJ9Z4CLoqC54gRfoACp0Cd6BU',
+    letter:'CFA',
+    pic:''
   });
   addMarker({
     coords: { lat: 28.597918, lng: -81.299730 },
-    placeId: '<h4>chic1</h4>'
+    placeId: 'ChIJz2Mtnp5v54gRUZ6kB1vtqM0',
+    letter:'CFA',
+    pic:''
   });
 
   // pollo tropical
   addMarker({
     coords: { lat: 28.552386, lng: -81.488457 },
-    placeId: '<h4>pollo1</h4>'
+    placeId: 'ChIJH7ZPCFx454gR-prwYajhERY',
+    letter:'PT',
+    pic:''
   });
   addMarker({
     coords: { lat: 28.465703, lng: -81.449804 },
-    placeId: '<h4>pollo1</h4>'
+    placeId: '<h4>pollo1</h4>',
+    letter:'PT',
+    pic:''
   });
   addMarker({
     coords: { lat: 28.882390, lng: -81.403578 },
-    placeId: '<h4>pollo1</h4>'
+    placeId: '<h4>pollo1</h4>',
+    letter:'PT',
+    pic:''
   });
   addMarker({
     coords: { lat: 28.466756, lng: -81.311135 },
-    placeId: '<h4>pollo1</h4>'
+    placeId: '<h4>pollo1</h4>',
+    letter:'PT',
+    pic:''
   });
   addMarker({
     coords: { lat: 28.521069, lng: -81.309802 },
-    placeId: '<h4>pollo1</h4>'
+    placeId: '<h4>pollo1</h4>',
+    letter:'PT',
+    pic:''
   });
   addMarker({
     coords: { lat: 28.608926, lng: -81.426048 },
-    placeId: '<h4>pollo1</h4>'
+    placeId: '<h4>pollo1</h4>',
+    letter:'PT',
+    pic:''
   });
 }
 
@@ -583,57 +589,63 @@ function initMapFineDinning() {
   //10-20
   addMarker({
     coords: { lat: 28.5564872, lng: -81.2030329 },
-    placeId: '<h4>red lobster - 1 1/4 pound live maine steamed lobster</h4>'
+    placeId:'ChIJ5-gBZ8tn54gRM3OQZYFtRz0',
+    letter:'MAH',
+    pic:'http://maps.google.com/mapfiles/ms/micons/pink.png', 
   });
   //5-10
   addMarker({
     coords: { lat: 28.596067, lng: -81.350880 },
-    placeId: '<h4>luma on the park - grilled costa rican mahi mahi</h4>'
+    placeId:'ChIJr0p-pxpw54gRxd5Mwt6F370',
+    letter:'',
+    pic:'http://maps.google.com/mapfiles/ms/micons/pink.png', 
   });
   //5-10
   addMarker({
     coords: { lat: 28.603543, lng: -81.363856 },
-    placeId: '<h4>Ruth Chris Steakhouse - Petit 8 oz Filet Mignon </h4>'
+    placeId:'ChIJ0e5CA14m_ogRj10LUlMFJqc',
+    letter:'RSH',
+    pic:'http://maps.google.com/mapfiles/ms/micons/pink.png', 
   });
   //5-10
   addMarker({
     coords: { lat: 28.605562, lng: -81.365529 },
-    placeId: '<h4>Flemings Prime Steakhouse & Wine Bar - Prime New York Strip</h4>'
+    placeId:'ChIJn9faRWpw54gRmeXyO6mDwdU',
+    letter:'SH',
+    pic:'http://maps.google.com/mapfiles/ms/micons/pink.png', 
   });
   //5-10
   addMarker({
     coords: { lat: 28.595968, lng: -81.356586 },
-    placeId: '<h4>Mynt Fine Indian Cuisine - Home Made Chicken Curry</h4>'
+    placeId:'ChIJ2aRRAhJw54gRj-ZPlD1xpQU',
+    letter:'IF',
+    pic:'http://maps.google.com/mapfiles/ms/micons/pink.png', 
   });
   //5-10
   addMarker({
     coords: { lat: 28.595279, lng: -81.364904 },
-    placeId: '<h4>Roccos Italian Grille & Bar - Spaghetti Carbonara</h4>'
+    placeId:'ChIJpU_SYnJw54gRATdBmo5Ev9U',
+    letter:'R',
+    pic:'http://maps.google.com/mapfiles/ms/micons/pink.png', 
   });
   //1-5
   addMarker({
     coords: { lat: 28.540125, lng: -81.378305 },
-    placeId: '<h4>Kres Chophouse - Filet Wellington</h4>'
+    placeId:'ChIJx2A1E_5654gRvZAfgim8ETQ',
+    letter:'FD',
+    pic:'http://maps.google.com/mapfiles/ms/micons/pink.png', 
   });
   addMarker({
     coords: { lat: 28.450473, lng: -81.480400 },
-    placeId: '<h4>Ocean Prime - Blackened Snapper</h4>'
-  });
-  addMarker({
-    coords: { lat: 28.450737, lng: -81.485615 },
-    placeId: '<h4>The Melting Pot - All natural chicken breast</h4>'
+    placeId:'ChIJO8u9Wqh_54gRb5iYbs8mFZY',
+    letter:'FD',
+    pic:'http://maps.google.com/mapfiles/ms/micons/pink.png', 
   });
   addMarker({
     coords: { lat: 28.452128, lng: -81.489976 },
-    placeId: '<h4>Christinis Ristorante Italiano - Pasta</h4>'
-  });
-  addMarker({
-    coords: { lat: 28.449379, lng: -81.483598 },
-    placeId: '<h4>Eddie Vs Prime Seafood - Misoyaki Halibut</h4>'
-  });
-  addMarker({
-    coords: { lat: 28.448681, lng: -81.489059 },
-    placeId: '<h4>Roys Restaurant - Blackened Island Ahi</h4>'
+    placeId:'ChIJo3pLtKF_54gRDYBy-uLogEM',
+    letter:'FD',
+    pic:'http://maps.google.com/mapfiles/ms/micons/pink.png', 
   });
 }
 // vegetarian
@@ -677,35 +689,17 @@ function initMapVegetarian() {
       }
     });
   }
+
   //10-20
-  addMarker({
-    coords: { lat: 28.567582, lng: -81.258516 },
-    placeId: '<h4>Thai Purple Orchid Cafe - Mixed Vegetable With Tofu</h4>'
-  });
+
   //10-20
-  addMarker({
-    coords: { lat: 28.599651, lng: -81.208861 },
-    placeId: '<h4>Bento Asian Kitchen and Sushi - Pad Thai Noodle Bowl</h4>'
-  });
+
   //10-20
-  addMarker({
-    coords: { lat: 28.597910, lng: -81.199935 },
-    placeId: '<h4>63 South - Black Bear Chipotle Veggie Burger(270 cal)</h4>'
-  });
-  //10-20
-  addMarker({
-    coords: { lat: 28.598259, lng: -81.209099 },
-    placeId: '<h4>Spoleto My Italian Kitchen - Pasta </h4>'
-  });
-  //10-20
-  addMarker({
-    coords: { lat: 28.600140, lng: -81.204060 },
-    placeId: '<div id="breakfast","vegetarian"><h4>Einstein Bros. Bagels</h4></div>',
-  });
+
   //5-10
   addMarker({
     coords: { lat: 28.593043, lng: -81.352887 },
-    placeId: '<h4>Ethos Vegan Kitchen - Chickpea Salad Sandwich (chickpea celery dill relish montery jack)</h4>'
+    placeId: 'ChIJS733oJJ654gRysFcCVij-90'
   });
   //5-10
   addMarker({

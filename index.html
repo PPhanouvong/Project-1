@@ -33,8 +33,8 @@
 <body>
 
     <div id="container">
-        <!-- Scrolling background effect -->
 
+        <!-- Scrolling background effect -->
         <div class="navigation">
             <nav>
                 <div class="nav-wrapper">
@@ -54,14 +54,15 @@
                         <div id="food" class="input-field">
                             <select class="browser-default">
                                 <option value="" disabled selected>Food Type</option>
-                                <option value="1">American</option>
-                                <option value="2">Chinese</option>
-                                <option value="3">Italian</option>
+                                <option value="1">Fast Food</option>
+                                <option value="2">Fine Dining</option>
+                                <option value="3">Vegetarian</option>
+                                <option value="4">Brunch</option>
                             </select>
                         </div>
                     </div>
 
-                    <!--MOOD SELECTOR-->
+                    <!-- MOOD SELECTOR
                     <div class="row">
                         <div id="typeOfRestaurant" class="input-field">
                             <select class="browser-default">
@@ -71,7 +72,7 @@
                                 <option value="3">Get together</option>
                             </select>
                         </div>
-                    </div>
+                    </div> -->
 
                     <!--ZIP ENTRY-->
                     <div class="row">
@@ -79,17 +80,18 @@
                             <div id="zip" class="input-field">
                                 <div class="row">
                                     <div class="input-field">
-                                        <select class="browser-default">
+                                        <!-- <select class="browser-default">
                                             <option value="" disabled selected>Radius</option>
                                             <option value="1">Option 1</option>
                                             <option value="2">Option 2</option>
                                             <option value="3">Option 3</option>
-                                        </select>
+                                        </select> -->
                                     </div>
                                 </div>
                             </div>
                             <br>
                             <br>
+
                             <!--SEARCH BUTTON-->
                             <div id="search">
                                 <div class="row">
@@ -113,8 +115,12 @@
         <div class="section">
             <div class="row container">
                 <h2 class="header">FeedMe</h2>
-                <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than
-                    the foreground content while scrolling.</p>
+                <p class="grey-text text-darken-3 lighten-3">Have you ever been so hungry that you simply wished you could say "Feed Me!!" and it would be settled? Well
+                    now you can with the Feed Me website optimized for smartphones. Simply bring up your voice activated
+                    assistant for whichever smartphone you are using and simply say "Feed Me!" Your phone will search for
+                    the site with a list of your predetermined favorites near your area. Desperate for a certain food style?
+                    Feed Me eliminates undesired options with your favorites. With Feed Me your smartphone will layout the
+                    yellow brick road to your favorite meal joints, frustration free!</p>
             </div>
         </div>
 
@@ -122,11 +128,42 @@
             <div class="parallax">
                 <img src="assets/images/Background2.jpg">
             </div>
+            <div id="rowBox" class="row">
 
-            <div class="nutrients"></div>
+                <!-- Nutrient search bar-->
+                <form id="search-form" class="nutrients" class= "col s3">
+                    <input type="text" id="search-input">
+                    <br>
+                    <input id="addSearch" type="submit" value="Submit">
+                </form>
 
-            <div class="reviews"></div>
-
+                <!-- Reviews table -->
+                <div id="reviews" class="col s3">
+                    <div class="row">
+                        <h1 style="font-size: 14px;">Reviews</h1>
+                        <p>COMPANY</p>
+                        <input type="text" id="name">
+                        <p>ADDRESS</p>
+                        <input type="text" id="address">
+                        <p>REVIEWS/THOUGHT'S/SUGGESTIONS</p>
+                        <input type="text" id="comment">
+                        <input class="btn btn-primary" type="submit" value="Submit" id="review-btn">
+                    </div>
+                    <div class="row">
+                        <table id="reviewTable" class="">
+                            <thead>
+                                <tr id="tableHeadRow">
+                                    <th scope="col s3" id="company">COMPANY</th>
+                                    <th scope="col s3" id="adress">ADDRESS</th>
+                                    <th scope="col s3" id="review">REVIEW</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
